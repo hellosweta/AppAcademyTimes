@@ -1,0 +1,32 @@
+<!-- Copy and paste all of the text content from docs/copy/masthead.txt into the html file. We will build the HTML structure around the content. Here are some guidelines:
+
+Notice that the .masthead is a flex-parent which means it will be used as an html container element and all of its immediate child elements will be flex-children.
+Set the align-items property to center the flex-children horizontally.
+The Rails Asset Pipeline takes care of precompiling our assets, so the correct file path for images in the assets/images folder is assets/example_image.jpg.
+Images that are important to a website's search engine optimization (SEO) should be image tags rather than background images, as image tags are parsed by search engines.
+Only list elements should be present within unordered lists, but list elements may contain other elements such as anchor tags or buttons.
+After some HTML structuring you will notice some problems with the styling. Refer to the masthead mock up and edit the stylesheet to fix the following things:
+
+Correct the positioning of the .language-nav.
+Remove the last border-right from .masthead-links.
+Make the first link in the .language-nav bold.
+Add application styling for anchor tags using the layout.scss file. -->
+
+<nav class="masthead group">
+  <ul class="language-nav group">
+
+    <li ><a href="#">CSS</a></li>
+    <li ><a href="#">HTML</a></li>
+    <li ><a href="#">Javascript</a></li>
+    <li ><a href="#">Ruby</a></li>
+  </ul>
+  <img src="assets/AA_Times_Logo.png" alt="">
+  <ul class="masthead-links group">
+    <li >Tuesday, October 18, 2016</li>
+    <li ><a href="#">Today’s Paper</a></li>
+    <li ><a href="#">Video</a></li>
+
+    <li ><button type="button" name="button">77°F</button></li>
+    <li><button type="button" name="button">AAO +100%</button></li>
+  </ul>
+</nav>

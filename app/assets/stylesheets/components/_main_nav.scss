@@ -1,0 +1,59 @@
+.main-nav {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li:last-child {
+  background: $light-gray;
+
+
+}
+.left-nav > ul > li {
+  font-family: $sans-serif;;
+  font-size:  12px;
+  text-transform: uppercase;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  padding: 5px 5px 5px 5px;
+}
+
+.right-nav > ul > li {
+  font-family: $sans-serif;
+  font-size:  14px;
+}
+
+.right-nav > ul > li:last-of-type {
+  background: $lightest-gray;
+  padding: 5px 5px 5px 5px;
+}
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  color: $lightest-gray;
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+  font-size: 20px;
+}
+
+// Add display: flex to the .main-nav and use justify-content for horizontal spacing.
+// Add ing to the .main-nav for vertical spacing.
+// Flex the unordered lists to keep their children horizontally aligned and use the align-items property to vertically align them.
+// Apply font-family, font-size, and text-transform properties to the list elements themselves.
+// Use the $lightest-gray hover for the list elements without buttons.
+// Style the necessary margin spacing between the texts and the icons.
+// Use font-size to make the gear icon bigger.
